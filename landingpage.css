@@ -1,0 +1,119 @@
+body{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color: white;
+    margin: 0px;
+    padding: 0px;
+    background-image: url('img3.jpg');  
+    background-size: 1270px;   
+    height: 4000px;
+    width: 1000px;   
+}
+.left{
+
+   /*  border: 2px solid yellow; */
+    position: absolute;
+    left: 20px;
+    top: 15px; 
+
+}
+
+.right{
+    display: inline-block;
+    position: absolute;
+    right: 20px;
+    top: 25px;
+    /* border: 2px solid yellow; */
+}
+
+.mid{
+    display: block;
+    margin: 15px auto;
+    width: 50%;
+    border: 1px solid wheat;
+    border-radius: 10px;
+    font-size: smaller;
+}
+.navbar{
+    display:inline-block;
+}
+
+.navbar li{
+    display: inline-block;
+    font-size: 20px;
+}
+.navbar li a{
+    font-size: 15px;
+    color: white; 
+    text-decoration: none;
+    padding: 12px 28px;
+}
+
+.navbar li a:hover, .navbar li a:active{
+    color: yellow;
+    text-decoration: underline;
+    font-size: 19px;
+}
+
+.left img{
+    width : 100px;
+    height : 55px;
+    filter: invert(10%);
+}
+
+.left div{
+    text-align: center;
+}
+.btn{
+    margin: 5px 2px;
+    padding: 2px 15px;
+    border: 2px solid white;
+    cursor: pointer;
+    background-color: beige;
+}
+
+.btn:hover{
+    background-color: rgba(0, 0, 255, 0.548);
+    color: gold;
+    font-size: 13px;
+    font-style: italic;
+}
+
+.Container{
+    /* border: 2px solid yellow; */
+    position: absolute;
+    margin: 40px 20px ;
+    padding: 20px 5px; 
+    width: 35%;
+    border-radius: 15%; 
+}
+
+form{
+    text-align: center;
+}
+
+h3{
+    color:indianred;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-style: initial;
+    text-align: center;
+}
+
+.form-group input{
+
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 20px;
+    padding: 3px 3px;
+    margin: 10px 10px;
+    font-size: larger; 
+    text-align: left;
+    width: 200px;
+    border-radius: 1px;
+}
+
+.Container button{
+
+    font-size: 13px;
+    width: 150px;
+    text-align: center;
+    margin-top: 30px;
+}
